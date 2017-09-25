@@ -1,2 +1,6 @@
-# MyProgrammingNotes
-My Programming Notes
+# My programming Notes
+
+## Java 
+## Javascript
+## CSS
+

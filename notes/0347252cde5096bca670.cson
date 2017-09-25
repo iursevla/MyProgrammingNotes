@@ -1,0 +1,80 @@
+type: "MARKDOWN_NOTE"
+folder: "7846290e7b9b8530b1ea"
+title: "CSS Grid"
+content: '''
+  # CSS Grid
+  HTML:
+  ```html
+  <div class="wrapper">
+      <div>
+          abc
+      </div>
+       <div>
+          cde
+      </div>
+  </div>
+  ```
+  
+  CSS:
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;    
+  }
+  ```
+  
+  ### Colunas:
+  ```css
+  grid-template-columns: /*Tamanho de cada coluna*/
+  grid-column-gap: /*Espaçamento entre colunas*/
+  ```
+  
+  ### Linhas:
+  ```css
+  grid-template-rows:  /*Tamanho de cada linha*/  
+  grid-row-gap:  /*Espaçamento entre linhas*/
+  ```
+  
+  #### Espaçamento:
+  ```css
+  grid-gap:  /*Espaçamento entre linhas e colunas*/
+  ```
+  
+  ### Templates
+  
+  Para os templates podemos usar as colunas ou  as linhas.  A forma de fornecer os valores pode ser em percentagens, frações (1fr 2fr etc), pixels, unidades etc.
+  
+  Exemplo 1:
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+  }
+  ```
+  S(ize)1 S2 S1 ....
+  
+  Exemplo 2:
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns:  repeat(3, 1fr);
+  }
+  ```
+  S1 S1 S1 ....
+  
+  Exemplo 3:
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns:  repeat(3, 1fr 2fr)
+  }
+  ```
+  S1 S2 S1 S2...
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-25T10:59:02.702Z"
+updatedAt: "2017-09-25T10:59:04.381Z"

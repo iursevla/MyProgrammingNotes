@@ -1,0 +1,19 @@
+type: "MARKDOWN_NOTE"
+folder: "c36251bf86e47d90aab7"
+title: "2"
+content: '''
+  # 2
+  
+  ### 8. Adicionar atributo a elemento da DOM
+  Basta fazer:
+  ```js
+  b.setAttribute("name", "helloButton");
+  let res = b.getAttribute("name");
+  console.log(res); // helloButton
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-25T11:00:19.948Z"
+updatedAt: "2017-09-25T11:00:21.475Z"

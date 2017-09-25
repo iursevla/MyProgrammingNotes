@@ -1,0 +1,96 @@
+type: "MARKDOWN_NOTE"
+folder: "c36251bf86e47d90aab7"
+title: "1"
+content: '''
+  # 1
+  let vs const vs var
+  https://prnt.sc/g1wsn0
+  https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75
+  
+  
+  ### 1. Criar Array com tamanho n e com valores sequenciais 
+  [Link SO](https://stackoverflow.com/a/33352604)
+  Exemplo 1: Cria array com 10 posições começando em 0 e até 9
+  ```js
+  let n = 10;
+  let array = [...Array(n).keys()];
+  ```
+  Exemplo2: Cria array com 5 posições começando em 11
+  ```js
+  let n = 5;
+  let array = [...Array(n).keys()].map(x => ++x+10);
+  ```
+  
+  ### 2. Percorrer array usando for..of com index
+  
+  [Link SO](https://stackoverflow.com/a/34349737)
+  
+  ```js
+  for (let [index, value] of array.entries()) {
+  
+  }
+  ```
+  
+  #### 3. Não criar classes com o mesmo nome das que existem no Javascript
+  Dia 26/08
+  ```js
+  ...
+  this.visualVariableCombinationToIndexMap = new Map();
+  
+  ```
+  
+  #### 4. Criar Array filled com 0s
+  [Link SO](https://stackoverflow.com/a/23326623/)
+  ```js
+  let array = new Array(100).fill(0);
+  OU
+  let array = [...Array(100).fill(0)];
+  ```
+  
+  #### 5. console.table para ver um aray/objeto na forma tabular
+  1. https://developer.mozilla.org/en-US/docs/Web/API/Console/table
+  2. https://blog.mariusschulz.com/2013/11/13/advanced-javascript-debugging-with-consoletable
+  
+  #### 6. Iterador em ES6
+  [Link SO](https://stackoverflow.com/a/28741819/)
+  [Link Moz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
+  ```js
+  class SomeClass {
+      constructor() {
+        this._data = [1,2,3,4];
+      }
+  
+      [Symbol.iterator]() {
+        var index = -1;
+        var data  = this._data;
+  
+        return {
+          next: () => ({ value: data[++index], done: index >= data.length })
+        };
+      };
+    }
+    
+  let obj = new SomeClass();
+  for (var i of obj) { 
+    console.log(i) 
+  } //OUTPUT: 1 2 3 4
+  ```
+   
+  #### 7. Mapear os elementos de um array
+  [Link W3S](https://www.w3schools.com/jsref/jsref_map.asp)
+  Para execturar uma função sobre os elementos de um array (mapear) basta fazer:
+  
+  ```js
+  let x = [5, 10, 15];
+  x.map((x) => x / 5);
+  console.log(x); //1,2,3
+  ```
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-25T11:00:11.848Z"
+updatedAt: "2017-09-25T11:00:13.337Z"

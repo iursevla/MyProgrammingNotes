@@ -13,3 +13,11 @@
 ## AutoHotKey Snippets (ahk folder)
 * all.ahk
 	* Sleep + Launch Licecap + Launch Snipping Tool + Start Calculator	
+
+## Hardware (hardware folder)
+* keyboard 
+	* G.Skill Rispjaws KM780 MX
+
+## Windows Tasks (windowsTasks folder)
+* AutoHotKey - Launch autohotkey all.ahk file at startup
+* Opera - Launch Opera browser at startup

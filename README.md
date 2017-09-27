@@ -10,14 +10,17 @@
 * TypeScript
 * Ionic
 
-## AutoHotKey Snippets (ahk folder)
-* all.ahk
-	* Sleep + Launch Licecap + Launch Snipping Tool + Start Calculator	
+
 
 ## Hardware (hardware folder)
 * keyboard 
 	* G.Skill Rispjaws KM780 MX
 
-## Windows Tasks (windowsTasks folder)
-* AutoHotKey - Launch autohotkey all.ahk file at startup
-* Opera - Launch Opera browser at startup
+## Windows (windows folder)
+* Windows Tasks - Windows programmed tasks
+	* AutoHotKey - Launch autohotkey all.ahk file at startup
+	* Opera - Launch Opera browser at startup
+* hosts - Hosts files for windows
+* AutoHotKey Snippets (ahk folder)
+	* all.ahk
+		* Sleep + Launch Licecap + Launch Snipping Tool + Start Calculator	

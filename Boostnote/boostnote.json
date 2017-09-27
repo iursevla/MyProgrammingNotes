@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "key": "7846290e7b9b8530b1ea",
+      "color": "#2BA5F7",
+      "name": "CSS"
+    },
+    {
+      "key": "c36251bf86e47d90aab7",
+      "color": "#2BA5F7",
+      "name": "ES6"
+    },
+    {
+      "key": "7ec45d6046e6c6a7f34c",
+      "color": "#FF8E00",
+      "name": "CSONtoREADME"
+    },
+    {
+      "key": "0a8891883cfaae3b8921",
+      "color": "#E8D252",
+      "name": "NPM"
+    },
+    {
+      "key": "efe81db566924df888cb",
+      "color": "#2BA5F7",
+      "name": "BoostNote"
+    },
+    {
+      "key": "77f35991a3d23000bac7",
+      "color": "#3FD941",
+      "name": "AutoHotKey"
+    },
+    {
+      "key": "68802cd4a6283a11db24",
+      "color": "#3FD941",
+      "name": "Linux"
+    }
+  ],
+  "version": "1.0"
+}

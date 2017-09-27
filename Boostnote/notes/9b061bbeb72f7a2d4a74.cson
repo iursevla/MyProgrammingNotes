@@ -1,0 +1,42 @@
+type: "MARKDOWN_NOTE"
+folder: "efe81db566924df888cb"
+title: "BoostNote Converter"
+content: '''
+  BoostNote Converter
+  I’m a havid user of BoosNote . 
+  As it says on their GitHub Page
+   Boostnote is an open source note-taking app made for programmers just like you. https://boostnote.io
+  It’s an amazing editor and i use almost everyday. But it lacks support to converiont from it’s notes into Markdown or PDF or HTML. Sure it allows to convert to Markdown and allows convertion to PDF by using print like you would do in the browser. Sure it works but the generated PDF isn’t styled.
+  So i thought about doing some project that would convert all your BoostNote notes at once to Markdown, PDF or HTML or all at once (why not?).
+  My objectives are:
+  Easily convert between BoostNote and
+  
+  
+  
+  ---
+  
+  BoostNote Converter
+  I’m a frequent user of BoostNote (See also GitHub Page). As it says on their GitHub Page:
+   Boostnote is an open source note-taking app made for programmers just like you. https://boostnote.io
+  It’s an amazing editor and i use almost everyday. But it lacks support to convertion from it’s notes into Markdown or PDF or HTML. Sure it allows to convert to Markdown and allows convertion to PDF by using print like you would do in the browser, so it works but the generated PDF isn’t styled.
+  With this in mind, i thought about doing some project that would convert all BoostNote notes at once to Markdown, PDF or HTML.
+  My objectives were:
+  Easily convert between BoostNote and the three uppermentioned formats
+  Convertion must be done for all notes at once
+  PDF and HTML output must be styled
+  
+  
+  
+  ---
+  
+  So what is a BoostNote note really? Well first we shall see the structure of BoostNote itself.
+  BoostNote is made of “Storages” which are folders on the FileSystem where the notes will be saved to. 
+  Each storage is composed of:
+  boostnote.json file 
+  notes folder
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-26T10:18:19.259Z"
+updatedAt: "2017-09-26T10:31:06.047Z"

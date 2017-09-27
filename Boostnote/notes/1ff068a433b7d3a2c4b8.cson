@@ -1,0 +1,32 @@
+type: "MARKDOWN_NOTE"
+folder: "68802cd4a6283a11db24"
+title: "Linux"
+content: '''
+  # Linux
+  
+  1. Give permissions for all files and directories inside a path
+  ```bash
+  chmod -R 777 path
+  ```
+  2. Move folder to new destination
+  ```bash
+  sudo cp -r /folder /opt
+  ```
+  
+  3. Install [NodeJS 8.x](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+  ```bash
+  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  ```
+  
+  4. Best terminal around [Terminator](https://gnometerminator.blogspot.pt/p/introduction.html)
+  
+  5. Acess path in ubuntu explorer -> Press CTRL + L
+  
+  6. Install tar.gz file : tar xvfz file.tar.gz and then use 2.
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-27T08:16:30.645Z"
+updatedAt: "2017-09-27T11:28:45.370Z"

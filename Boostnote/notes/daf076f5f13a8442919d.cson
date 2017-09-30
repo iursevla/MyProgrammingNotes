@@ -1,0 +1,18 @@
+type: "MARKDOWN_NOTE"
+folder: "bed98e7a296bfe99afc5"
+title: "Git"
+content: '''
+  # Git
+  
+  1. Store Credentials (at least in Linux is needed)
+  ```bash
+  git config credential.helper store
+  git push http://example.com/repo.git
+  ```
+  Quando se executa o git push a 1ª vez depois do git config ele pede a password, depois disso não pede mais.
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-29T10:48:44.811Z"
+updatedAt: "2017-09-29T10:49:57.757Z"

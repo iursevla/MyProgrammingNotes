@@ -1,0 +1,62 @@
+type: "MARKDOWN_NOTE"
+folder: "7846290e7b9b8530b1ea"
+title: "CSS Frameworks"
+content: '''
+  # CSS Frameworks
+  
+  http://cssdb.co
+  ++
+  https://github.com/uhub/awesome-css
+  
+  ## Cores
+  1. http://htmlcolorcodes.com/resources/best-color-palette-generators/
+  
+  ## Loaders 
+  1. loaders.css -> https://connoratherton.com/loaders + https://github.com/ConnorAtherton/loaders.css
+  2. SpinKit -> https://github.com/tobiasahlin/SpinKit
+  3. css-loaders -> https://github.com/lukehaas/css-loaders
+  4. cssSpin -- > https://github.com/webkul/csspin
+  5. https://tympanus.net/Development/ElasticProgress/
+  
+  ## Layout Managers
+  1. bulma -> https://github.com/jgthms/bulma
+  2. FlexBlocks -> https://github.com/lord/flexblocks + https://raw.githubusercontent.com/lord/img/master/cheatsheet-flexblocks.png
+  3. simplegrid -> http://simplegrid.io
+  4. blazecss -> http://blazecss.com
+  5. blueprintcss -> https://blueprintcss.io
+  
+  ## Hover for Legend
+  1. Hover (license?) -> https://github.com/IanLunn/Hover
+  2. 
+  
+  
+  ## Tooltip for Points/Polygons
+  1. hint.css -> https://github.com/chinchang/hint.css
+  2. balloon.css -> https://github.com/kazzkiq/balloon.css
+  3. microtip -> https://github.com/ghosh/microtip
+  
+  ## Animation (Animar Legenda ao minimizar etc)
+  1. animate.css -> https://github.com/daneden/animate.css
+  2. Effeckt.css -> https://github.com/h5bp/Effeckt.css
+  3. vivify -> https://github.com/Martz90/vivify
+  
+  
+  ## Icons 
+  1. icono -> https://saeedalipoor.github.io/icono/
+  
+  
+  
+  ## TimeLine
+  1. https://github.com/andriussev/timelined
+  2. 
+  
+  ## Checkbox
+  1. https://hunzaboy.github.io/CSS-Checkbox-Library/
+  2. 
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-09-28T09:22:36.793Z"
+updatedAt: "2017-09-28T09:22:45.770Z"

@@ -11,9 +11,20 @@ content: '''
   let res = b.getAttribute("name");
   console.log(res); // helloButton
   ```
+  ### 9. Imports  [ES6](https://hackernoon.com/import-export-default-require-commandjs-javascript-nodejs-es6-vs-cheatsheet-different-tutorial-example-5a321738b50f)
+  
+  ### 10. Array.every(...)
+  Este método permite verificar se todos os elementos do array satisfazem determinada condição.
+  Exemplo:
+  ```js
+  let x = [true, true, true];
+  if(x.every((v) => v)){
+      console.log('All true');
+  }
+  ```
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-25T11:00:19.948Z"
-updatedAt: "2017-09-25T11:00:21.475Z"
+updatedAt: "2017-09-30T15:04:48.166Z"

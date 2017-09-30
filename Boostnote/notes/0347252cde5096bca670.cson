@@ -4,6 +4,11 @@ title: "CSS Grid"
 content: '''
   https://github.com/sotayamashita/awesome-css
   # CSS Grid
+  
+  [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  [Learn CSS Grid](http://learncssgrid.com)
+  
+  
   HTML:
   ```html
   <div class="wrapper">
@@ -29,12 +34,14 @@ content: '''
   grid-template-columns: /*Tamanho de cada coluna*/
   grid-column-gap: /*Espaçamento entre colunas*/
   ```
+  Ao definirmos nas columns 1fr 2fr estamos a dizer que irá ser dividido em 3 colunas. O primeiro elemento fica com uma fração e o segundo com 2 frações.
   
   ### Linhas:
   ```css
   grid-template-rows:  /*Tamanho de cada linha*/  
   grid-row-gap:  /*Espaçamento entre linhas*/
   ```
+  Ao definirmos nos rows 1fr 2fr estamos a dizer que irá ser dividido em 3 linhas. O primeiro elemento fica com uma fração e o segundo com 2 frações.
   
   #### Espaçamento:
   ```css
@@ -73,9 +80,64 @@ content: '''
   S1 S2 S1 S2...
   
   
+  ### Altura
+  Exemplo 4: Altura 100px no mather what
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns:  repeat(3, 1fr 2fr)
+      ...
+      grid-auto-rows: 100px;
+  }
+  ```
+  Exemplo 5: Altura 100px por defeito ou fit the content of the elements que estão dentro do wrapper. [VER](http://prntscr.com/gqnttj)
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns:  repeat(3, 1fr 2fr)
+      ...
+      grid-auto-rows: minmax(100px, auto);
+  }
+  ```
+  
+  ### Justify and Align
+  
+  Para colocar os elementos centrados verticalmente e horizontalmente 
+  ```css
+  .wrapper {
+      display: grid;
+      grid-template-columns:  1fr 2fr 1fr;
+      grid-auto-rows: minmax(100px, auto);
+      justify-items: center;
+      align-items: center;
+  }
+  ```
+  justify é para horizontalmente
+  algin é para verticalmente
+  Valores possíveis são: **start**, **center**, **end** e o defaul é **strech**
+  
+  ### Grid row and column
+  Para conseguir definir horizontalmente e verticalmente quanto espaço usam.
+  
+  ```css
+  .wrapper {
+      ....
+  }
+  .box1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  ```
+   grid-column: 1/3; -> começar no inicio e ir até à coluna 3
+   grid-row: 1/3 -> começar no inicio e ir até à linha 3
+  
+  ### Overlap elements
+  
+  Basicamente pode-se começar no grid-column ou grid-row em cima de outro elemento.
+  
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-25T10:59:02.702Z"
-updatedAt: "2017-09-25T23:33:19.259Z"
+updatedAt: "2017-09-28T10:16:32.164Z"

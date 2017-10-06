@@ -39,6 +39,11 @@
       "key": "bed98e7a296bfe99afc5",
       "color": "#E8D252",
       "name": "Git"
+    },
+    {
+      "key": "1bf8297c17b12860c876",
+      "color": "#30D5C8",
+      "name": "ffmpeg"
     }
   ],
   "version": "1.0"

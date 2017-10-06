@@ -17,6 +17,7 @@ content: '''
   3. css-loaders -> https://github.com/lukehaas/css-loaders
   4. cssSpin -- > https://github.com/webkul/csspin
   5. https://tympanus.net/Development/ElasticProgress/
+  6. Loading com percentagem e nice font--> https://codepen.io/v_trefil/pen/oxmdqw 
   
   ## Layout Managers
   1. bulma -> https://github.com/jgthms/bulma
@@ -54,9 +55,18 @@ content: '''
   1. https://hunzaboy.github.io/CSS-Checkbox-Library/
   2. 
   
+  ## Error/Close Modal
+  1. Close button -> https://codepen.io/murphyrandle/pen/wvCgI
+  
+  ## Tese
+  1.http://demo.geekslabs.com/materialize/v3.1/
+  2.https://codepen.io/siamak/pen/MKmZpe
+  3.http://freefrontend.com/css-text-effects/#animated-text
+  4.https://dribbble.com/
+  5.https://superdevresources.com/material-design-web-ui-frameworks/
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-28T09:22:36.793Z"
-updatedAt: "2017-09-28T09:22:45.770Z"
+updatedAt: "2017-10-06T10:02:51.724Z"

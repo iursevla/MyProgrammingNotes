@@ -1,0 +1,20 @@
+type: "MARKDOWN_NOTE"
+folder: "1bf8297c17b12860c876"
+title: "ffmpeg"
+content: '''
+  # ffmpeg
+  
+  FFmpeg pode ser usado para tratar imagens, vídeos, gifs, etc
+  
+  ## 1. Converter gif para mp4
+  ```bash
+  .\\ffmpeg.exe -i input.gif output.mp4
+  ```
+  A conversão de um ficheiro gif que tinha 100MB resultou num ficheiro mp4 com 5MB.
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-06T09:46:57.789Z"
+updatedAt: "2017-10-06T09:53:39.233Z"

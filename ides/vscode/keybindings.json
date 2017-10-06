@@ -28,5 +28,33 @@
         "key": "ctrl+l",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "editor.action.copyLinesDownAction",
+        "key": "shift+alt+down",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "editor.action.copyLinesUpAction",
+        "key": "shift+alt+up",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "editor.action.formatDocument",
+        "key": "alt+shift+f",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "workbench.action.terminal.toggleTerminal",
+        "key": "ctrl+F8"
+    },
+    {
+        "command": "workbench.action.terminal.new",
+        "key": "ctrl+shift+F8"
+    },
+    {
+        "command": "workbench.action.terminal.kill",
+        "key": "CTRL+F7",
+        "when": "terminalFocus"
     }
 ]

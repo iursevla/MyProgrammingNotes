@@ -22,9 +22,22 @@ content: '''
       console.log('All true');
   }
   ```
+  
+  ### 11. string.repeat(nTimes) 
+  Repete a 'string' nTimes.
+  Exemplo:
+  ```js
+  'abc'.repeat(3) //abcabcabc
+  ```
+  
+  ### 11. Replace all occurrences of substring 
+  Exemplo:
+  ```js
+  str = str.replace(/abc/g, '');
+  ```
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-25T11:00:19.948Z"
-updatedAt: "2017-09-30T15:04:48.166Z"
+updatedAt: "2017-10-05T20:28:37.974Z"

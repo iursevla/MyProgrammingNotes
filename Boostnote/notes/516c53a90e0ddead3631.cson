@@ -35,9 +35,34 @@ content: '''
   ```js
   str = str.replace(/abc/g, '');
   ```
+  
+  ### 12. [Loop with setTimeout](https://stackoverflow.com/a/22154172)
+  ```js
+  timeout() {
+      setTimeout( () => {
+          // Do Something Here
+          // Then recall the parent function to
+          // create a recursive loop.
+          this.timeout();
+      }, 1000);
+  }
+  ```
+  
+  ### 13. [Sort Array](https://www.w3schools.com/jsref/jsref_sort.asp)
+  `array.sort(compareFunction)` where compareFunction - A function that defines an alternative sort order. The function should return a negative, zero, or positive value, depending on the arguments, like: function(a, b){return a-b}
+  
+  When the sort() method compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
+  Example:
+  When comparing 40 and 100, the sort() method calls the compare function(40,100).
+  The function calculates 40-100, and returns -60 (a negative value).
+  The sort function will sort 40 as a value lower than 100.
+  ```js
+  array.sort((a,b) => a - b); //Ascending order
+  array.sort((a,b) => b - a); //Descending order
+  ```
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-25T11:00:19.948Z"
-updatedAt: "2017-10-05T20:28:37.974Z"
+updatedAt: "2017-10-10T08:53:32.867Z"

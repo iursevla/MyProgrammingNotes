@@ -44,6 +44,11 @@
       "key": "1bf8297c17b12860c876",
       "color": "#30D5C8",
       "name": "ffmpeg"
+    },
+    {
+      "key": "7cad48378d9c64b7e9e1",
+      "color": "#E10051",
+      "name": "Apps"
     }
   ],
   "version": "1.0"

@@ -1,0 +1,27 @@
+type: "MARKDOWN_NOTE"
+folder: "7cad48378d9c64b7e9e1"
+title: "SuperSpy - BigBrother"
+content: '''
+  # SuperSpy - BigBrother
+  
+  Nesta aplicação o objetivo é gravar audio, video e imagem sem que se perceba que está a ser gravado.
+  
+  
+  Exemplos:
+  1. Video - [Background Video Recorder](https://play.google.com/store/apps/details?id=com.kimcy929.secretvideorecorder)
+  2. Audio - [Smart Voice Recorder](https://play.google.com/store/apps/details?id=com.andrwq.recorder)
+  3. Imagem - [Safe Camera](https://play.google.com/store/apps/details?id=com.fenritz.safecam)
+  
+  Encriptação:
+  Imagem  [Safe Camera](https://play.google.com/store/apps/details?id=com.fenritz.safecam)
+  Imagem [Private Ptoto Vault](https://play.google.com/store/apps/details?id=com.enchantedcloud.photovault)
+  Imagem e Video Encrypt [Hide Pictures & Videos -VAULT](https://play.google.com/store/apps/details?id=com.privatevault.free)
+  Imagem e Video [LockMyPix](https://play.google.com/store/apps/details?id=com.fourchars.lmpfree)
+  
+  Android record video with screen off https://stackoverflow.com/questions/26397382/android-app-video-recording-when-screen-off
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-10T12:52:09.764Z"
+updatedAt: "2017-10-10T13:27:14.467Z"

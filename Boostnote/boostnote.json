@@ -18,7 +18,7 @@
     {
       "key": "0a8891883cfaae3b8921",
       "color": "#E8D252",
-      "name": "NPM"
+      "name": "Node"
     },
     {
       "key": "efe81db566924df888cb",
@@ -49,6 +49,11 @@
       "key": "7cad48378d9c64b7e9e1",
       "color": "#E10051",
       "name": "Apps"
+    },
+    {
+      "key": "28ffcc2e4bf7c2350028",
+      "color": "#3FD941",
+      "name": "WebGL"
     }
   ],
   "version": "1.0"

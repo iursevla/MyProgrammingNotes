@@ -1,0 +1,16 @@
+type: "MARKDOWN_NOTE"
+folder: "0a8891883cfaae3b8921"
+title: "NodeJS"
+content: '''
+  # NodeJS
+  
+  ## 1. [Expose local server to the internet](https://www.pluralsight.com/guides/node-js/exposing-your-local-node-js-app-to-the-world) + [LocalTunnel](https://localtunnel.github.io/www/)
+  * Execute the command `npm install -g localtunnel`
+  * Add a server with a defined port
+  * Then run `lt --port portNumber` e.g. `lt --port 8080`
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-11T16:44:09.203Z"
+updatedAt: "2017-10-11T17:39:54.678Z"

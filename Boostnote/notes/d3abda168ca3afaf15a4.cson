@@ -1,0 +1,45 @@
+type: "MARKDOWN_NOTE"
+folder: "28ffcc2e4bf7c2350028"
+title: "WebGL"
+content: '''
+  # WebGL
+  
+  [Best Tutorial](https://nickdesaulniers.github.io/RawWebGL/#/1)
+  
+  1. [WebGLRenderingContext.vertexAttribPointer](http://devdocs.io/dom/webglrenderingcontext/vertexattribpointer)
+  Specifies the memory layout of the buffer holding the vertex attributes.
+  ```js
+  void gl.vertexAttribPointer(index, size, type, normalized, stride, offset);
+  ```
+  * index - The index of the vertex attribute that is to be modified
+  * size - The number of components per vertex attribute. Must be 1,2,3 or 4.
+  * type - The type of data of each component in the data array. e.g gl.BYTE, gl.FLOAT etc
+  * normalized - To normalize the data values when being caste to a float. If true, unsigned integers are normalized to [0,1] and signed integers to [-1,1]. If the data is gl.FLOAT then this parameter has no effect.
+  * stride - The offset in bytes between the beginning of consecutive vertex attributes. This way we could have only one WebGLBuffer with all points and its data interleaved. E.g. [lng1, lat1, attrValue1, lng2, lat2, attrValue2 ...]
+  * offset - The offset in bytes of the first component in the vertex attribute array. Must be a multiple of the given type.
+  
+  Example for Gisplay API prop. symbol draw
+  ```js
+  let attributeData = tg.getAttributeData();
+  const vertexSizeLocation = gl.getAttribLocation(PROGRAM, this.shadersInfo.getSizeVarName()); // POINT SIZE
+  gl.bindBuffer(gl.ARRAY_BUFFER, attributeData);
+  gl.enableVertexAttribArray(vertexSizeLocation);
+  gl.vertexAttribPointer(vertexSizeLocation, 1, gl.FLOAT, false, GisplayDefaults.getFloat32BytesPerElement() * 2, 0);
+  gl.drawArrays(gl.POINTS, 0, tg.getNumElements());
+  ```
+  
+  2. [WebGLRenderingContext.drawArrays](http://devdocs.io/dom/webglrenderingcontext/drawarrays)
+  Renders primitives from array data.
+  ```js
+  void gl.drawArrays(mode, first, count);
+  ```
+  * mode - The primitive to render. E.g. gl.POINTS, gl.LINE_LOOP, gl.TRIANGLES etc
+  * first - The starting index in the array of vector points.
+  * count - The number of indices to render.
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-11T14:53:38.824Z"
+updatedAt: "2017-10-11T21:36:35.275Z"

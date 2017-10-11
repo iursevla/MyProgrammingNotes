@@ -3,7 +3,7 @@ folder: "77f35991a3d23000bac7"
 title: "Snippets"
 content: '''
   # Snippets
-  
+  1. Sleep + Open Snipping Tool + Open Licecap + 
   ```ahk
   ; Quick Tools
   ; Fanatic Guru
@@ -89,4 +89,4 @@ tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-27T10:29:13.127Z"
-updatedAt: "2017-09-27T10:29:48.800Z"
+updatedAt: "2017-10-10T14:04:33.411Z"

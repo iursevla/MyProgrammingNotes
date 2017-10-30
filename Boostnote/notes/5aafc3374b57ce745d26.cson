@@ -4,12 +4,14 @@ title: "Errors"
 content: '''
   # Errors
   
-  1. [.Offscreen-For-WebGL-0000014D07FAF410]GL ERROR :GL_INVALID_OPERATION : glDrawArrays: attempt to access out of range vertices in attribute 1
+  1. [.Offscreen-For-WebGL-0000014D07FAF410](https://stackoverflow.com/a/32468055) GL ERROR :GL_INVALID_OPERATION : glDrawArrays: attempt to access out of range vertices in attribute 1
   
   Probably the order of the glDrawArrays is wrong (if there's two values that are sent to WebGL in an array of values) or it's drawing outisde of the number of elements, e.g. there's 7 positions in the array but its trying to draw after the 7th position of the buffer
+  
+  2.
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-10-11T15:48:53.621Z"
-updatedAt: "2017-10-11T15:50:26.210Z"
+updatedAt: "2017-10-12T18:41:54.451Z"

@@ -1,0 +1,25 @@
+type: "MARKDOWN_NOTE"
+folder: "7846290e7b9b8530b1ea"
+title: "CSS Info"
+content: '''
+  # CSS Info
+  
+  1. Center text center relative to parent
+  ```css
+  # parent{
+  position: relative;
+  }
+  
+  #children{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+  }
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-29T18:48:09.058Z"
+updatedAt: "2017-10-29T21:18:56.172Z"

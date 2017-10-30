@@ -54,6 +54,16 @@
       "key": "28ffcc2e4bf7c2350028",
       "color": "#3FD941",
       "name": "WebGL"
+    },
+    {
+      "key": "bacddab92057dca501f9",
+      "color": "#30D5C8",
+      "name": "Windows"
+    },
+    {
+      "key": "c10b93f0ff0d0f12de32",
+      "color": "#E10051",
+      "name": "Ionic 3"
     }
   ],
   "version": "1.0"

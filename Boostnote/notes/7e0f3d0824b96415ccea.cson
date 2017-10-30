@@ -1,0 +1,23 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Pre Populated Database"
+content: '''
+  # Pre Populated Database
+  
+  To create a pre populated database, first add ionic-native sqlite.
+  
+  ```bash
+  npm install --save @ionic-native/sqlite
+  ```
+  
+  Then add the sqlite-ext cordova plugin
+  ```bash
+  ionic cordova plugin add cordova-sqlite-ext
+  ```
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-29T12:56:55.864Z"
+updatedAt: "2017-10-29T13:53:48.503Z"

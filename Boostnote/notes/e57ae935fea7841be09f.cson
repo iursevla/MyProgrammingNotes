@@ -5,9 +5,13 @@ content: '''
   # Precisa:
   
   1. CSON To JSON -> https://github.com/bevry/cson
+  
+  Headless browsers:
+  1. [puppeteer](https://bestof.js.org/projects/puppeteer)
+  2. [Phantomjs](http://phantomjs.org)
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-25T11:21:09.800Z"
-updatedAt: "2017-09-25T11:21:34.083Z"
+updatedAt: "2017-10-22T17:54:20.628Z"

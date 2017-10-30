@@ -25,9 +25,31 @@ content: '''
   
   6. Install tar.gz file : tar xvfz file.tar.gz and then use 2.
   7.  Best program to record gif of desktop is Peek
+  8.  Tool to install deb files: `sudo apt-get install gdebi` and use the GUI. If the GUI does not work then install the deb files with `sudo gdebi packageName.deb`
+  9.  Install Java SDK: `add-apt-repository ppa:webupd8team/java`  + `apt-get update` + `apt-get install oracle-java8-installer`
+  10.  Install Android Studio: `apt-add-repository ppa:maarten-fonville/android-studio` + `apt-get update` + `apt-get install android-studio`
+  11.  Screen tearing :  
+  Open the file manager as root and go to the folder "etc/X11/xorg.conf.d" (create it if it does not exist) and in that folder create a document called "20-radeon.conf" and in that file add the following lines of code:
+  ```
+  Section "Device"
+      Identifier "Radeon"
+      Driver "radeon"
+      Option "TearFree" "on"
+  EndSection
+  ``` 
+  12. Install node-canvas: `sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++` + `sudo su` + `npm i -g canvas`
+  13. Install VirtualBox: `sudo apt-get install virtualbox`
+  14. Install Genymotion: Download .bin from genymotion website and then do `sudo bash fileName.bin` 
+  15. Add ANDROID_HOME to Path:  In /home/[username] inside file named .bashrc add the following lines of code:
+  ``` 
+  export ANDROID_HOME=$HOME/Android/Sdk
+  export PATH=$PATH:$ANDROID_HOME/tools
+  export PATH=$PATH:$ANDROID_HOME/platform-tools
+  ```
+  16. Install gradle: `sudo apt install gradle` 
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-09-27T08:16:30.645Z"
-updatedAt: "2017-10-06T09:45:54.426Z"
+updatedAt: "2017-10-28T21:28:57.388Z"

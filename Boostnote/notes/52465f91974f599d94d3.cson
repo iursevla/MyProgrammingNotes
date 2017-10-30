@@ -1,0 +1,17 @@
+type: "MARKDOWN_NOTE"
+folder: "bacddab92057dca501f9"
+title: "Windows"
+content: '''
+  # Windows
+  
+  ### 1. Terminate all programs with name abc.exe at once [See](https://www.howtogeek.com/howto/windows-vista/how-do-i-kill-all-the-iexploreexe-processes-at-once/)
+  `taskkill /F /IM abc.exe /T`
+  
+  ### 2. See processes that are blocking folders [See](https://superuser.com/a/774290/)
+  Windows+R: `resmon.exe` and then look for associated handles by writing the name of the folder or part of it.
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-29T12:51:09.270Z"
+updatedAt: "2017-10-29T13:45:44.812Z"

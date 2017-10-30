@@ -1,0 +1,25 @@
+type: "MARKDOWN_NOTE"
+folder: "bed98e7a296bfe99afc5"
+title: "2. Git"
+content: '''
+  # 2. Git 
+  
+  ### Gitignore all files inside folder except one [See](https://stackoverflow.com/a/987162/5869289)
+  In .gitignore file:
+  ```git
+  folderName/*
+  !folderName/fileName
+  ```
+  
+  Example, to keep data.db (database file) on www folder, but ignore the rest of the www folder content:
+  ```git
+  www/*
+  !www/data.db
+  ```
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-10-29T14:58:20.613Z"
+updatedAt: "2017-10-29T16:24:22.428Z"

@@ -1,0 +1,43 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Permissions Plugin"
+content: '''
+  # Permissions Plugin
+  
+  #### Links. [Npm](https://www.npmjs.com/package/cordova-plugin-android-permissions) + [GitHub](https://github.com/NeoLSN/cordova-plugin-android-permissions)
+  
+  ### Install
+  ```bash
+  $ ionic cordova plugin add cordova-plugin-android-permissions
+  $ npm install --save @ionic-native/android-permissions
+  ``` 
+  
+  ### Add to app.module.ts
+  
+  ... See Geolocation
+  
+  ### Usage  [See](https://ionicframework.com/docs/native/android-permissions/)
+  
+  ```js
+  import { AndroidPermissions } from '@ionic-native/android-permissions';
+  
+  constructor(private androidPermissions: AndroidPermissions) { }
+  async checkPermissions() {
+  		let PERMISSION_LIST = this.Apermissions.PERMISSION;
+  		let permission = await  this.Apermissions.checkPermission(PERMISSION_LIST.ACCESS_FINE_LOCATION);
+  		console.log(permission);
+  		let hasPermission = permission.hasPermission;
+  		console.log(hasPermission);
+  	}
+  ```
+  
+  ### List of permissions available -> [See](https://developer.android.com/reference/android/Manifest.permission.html?hl=zh-tw)
+  
+'''
+tags: [
+  "ionic"
+]
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-09T22:51:58.449Z"
+updatedAt: "2017-11-10T18:40:41.058Z"

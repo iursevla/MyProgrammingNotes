@@ -64,6 +64,11 @@
       "key": "c10b93f0ff0d0f12de32",
       "color": "#E10051",
       "name": "Ionic 3"
+    },
+    {
+      "key": "4ec9065bf6fdd029157a",
+      "color": "#3FD941",
+      "name": "Ionic 4"
     }
   ],
   "version": "1.0"

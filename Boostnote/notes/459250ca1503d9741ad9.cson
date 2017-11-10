@@ -1,0 +1,38 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Diagnostics Plugin"
+content: '''
+  # Diagnostics Plugin
+  - Checks whether device hardware features are enabled or available to the app, e.g. camera, GPS, wifi
+  #### Links: [Ionic Native](https://ionicframework.com/docs/native/diagnostic/) + [GitHub](https://github.com/dpa99c/cordova-diagnostic-plugin) + [Blog](https://ampersandacademy.com/tutorials/ionic-framework-version-2/check-gelocation-gps-is-enabled-or-not)
+  
+  ### Install
+  
+  ```bash
+  ionic cordova plugin add cordova.plugins.diagnostic
+  npm install --save @ionic-native/diagnostic
+  ```
+  
+  ### Add to app.module.ts
+  
+  ...
+  
+  ### Usage [See](https://ionicframework.com/docs/native/diagnostic/)
+  
+  ```js
+  import { Diagnostic } from '@ionic-native/diagnostic';
+  
+  constructor(private diagnostic: Diagnostic) { }
+  
+  async checkGPS() {
+  		let locationEnabled = await this.diagnostic.isGpsLocationEnabled();
+  		if(!locationEnabled)
+  			this.diagnostic.switchToLocationSettings(); //Open Menu to enable/disable GPS
+  }
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-10T18:39:47.371Z"
+updatedAt: "2017-11-10T20:21:26.892Z"

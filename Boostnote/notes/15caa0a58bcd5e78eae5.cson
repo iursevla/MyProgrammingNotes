@@ -1,0 +1,27 @@
+type: "MARKDOWN_NOTE"
+folder: "c36251bf86e47d90aab7"
+title: "3"
+content: '''
+  # 3
+  
+  ### 14. Delete DOM element
+  ```js
+  let elem = document.getElementById('someId');
+  elem.parentNode.removeChild(elem);
+  ```
+  
+  ### 15. Join Typed Arrays [Source](https://stackoverflow.com/a/14071518/)
+  ```js
+  let a = new Int8Array( [ 1, 2, 3 ] );
+  let b = new Int8Array( [ 4, 5, 6 ] );
+  
+  let c = new Int8Array(a.length + b.length);
+  c.set(a);
+  c.set(b, a.length);
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-05T14:00:18.727Z"
+updatedAt: "2017-11-06T15:00:28.584Z"

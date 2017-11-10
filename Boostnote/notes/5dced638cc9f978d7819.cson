@@ -1,0 +1,49 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Geolocation Plugin"
+content: '''
+  # Geolocation Plugin
+  
+  #### Links: [Youtube Example](https://www.youtube.com/watch?v=RraZBgsRAa8) + [Blog](http://tphangout.com/ionic-3-leaflet-maps-geolocation-markers/) + [GitHub](https://github.com/apache/cordova-plugin-geolocation)
+  
+  ### Install
+  ```bash
+  $ ionic cordova plugin add cordova-plugin-geolocation
+  $ npm install --save @ionic-native/geolocation
+  ```
+  
+  ### Add to app.module.ts
+  
+  ```js
+  import { Geolocation } from '@ionic-native/geolocation';
+  ...
+  providers: [
+  		...,
+          Geolocation
+  ]
+  ```
+  
+  ### Usage [See](https://ionicframework.com/docs/native/geolocation/)
+  ```js
+  import { Geolocation } from '@ionic-native/geolocation';
+  
+      constructor(private geolocation: Geolocation) {
+          this.getLatLng()
+      }
+  
+  	async getLatLng() {
+  		let position = await this.geolocation.getCurrentPosition({ 
+                                      enableHighAccuracy: true, timeout: 3000 
+                                      });
+  		this.latitude = position.coords.latitude;
+  		this.longitude = position.coords.longitude;
+  	}
+  ```
+'''
+tags: [
+  "ionic"
+]
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-09T21:39:39.618Z"
+updatedAt: "2017-11-10T18:41:00.610Z"

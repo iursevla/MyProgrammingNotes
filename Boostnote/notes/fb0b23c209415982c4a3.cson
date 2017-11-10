@@ -17,9 +17,29 @@ content: '''
       transform: translateX(-50%) translateY(-50%);
   }
   ```
+  
+  2. Positioning children element at the bottom right corner  of parent element
+  ```css
+  #parent{
+      position: relative;
+  }
+  
+  #children{
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+  }
+  ```
+  
+  3. Hide element (aka Minimize)
+  ```css
+  #element{
+      display: none;
+  }
+  ``` 
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-10-29T18:48:09.058Z"
-updatedAt: "2017-10-29T21:18:56.172Z"
+updatedAt: "2017-11-02T14:43:40.017Z"

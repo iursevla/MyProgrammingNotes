@@ -1,13 +1,20 @@
 type: "MARKDOWN_NOTE"
 folder: "c10b93f0ff0d0f12de32"
-title: "CSS Grid in Ionic"
+title: "Links"
 content: '''
-  # CSS Grid in Ionic
+  # Links 
   
-  1. http://masteringionic.com/blog/2017-10-29-using-css-grid-layout-with-ionic/
+  1. CSS Grid in Ionic -> http://masteringionic.com/blog/2017-10-29-using-css-grid-layout-with-ionic/
+  2. Example App from Ionic-team -> https://github.com/mhartington/star-track-ionic
+  3. Async/Await -> https://www.joshmorony.com/using-asyncawait-syntax-for-promises-in-ionic/
+  4. Create Cordova Plugins -> https://medium.com/ionic-and-the-mobile-web/how-to-write-cordova-plugins-864e40025f2
+  5. Internationalize -> https://medium.com/appseed-io/internationalize-and-localize-your-ionic-2-application-4ad3d6356b3f + https://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/
+  6. Start Ionic Pro -> https://ionicframework.com/docs/pro/basics/getting-started/
+  7. Ionic Modal -> https://www.youtube.com/watch?v=ACYu94hLg4I
+  8. All types of components -> https://github.com/yannbf/ionic3-components
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-11-09T21:40:52.801Z"
-updatedAt: "2017-11-09T21:41:00.514Z"
+updatedAt: "2017-11-20T22:49:21.297Z"

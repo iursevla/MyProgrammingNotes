@@ -17,7 +17,7 @@ content: '''
   
   ...
   
-  ### Usage [See](https://ionicframework.com/docs/native/diagnostic/)
+  ### Usage [See](https://ionicframework.com/docs/native/diagnostic/#usage)
   
   ```js
   import { Diagnostic } from '@ionic-native/diagnostic';
@@ -35,4 +35,4 @@ tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-11-10T18:39:47.371Z"
-updatedAt: "2017-11-10T20:21:26.892Z"
+updatedAt: "2017-11-10T20:31:48.456Z"

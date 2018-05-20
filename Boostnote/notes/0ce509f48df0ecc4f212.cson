@@ -1,13 +1,9 @@
 type: "MARKDOWN_NOTE"
 folder: "c10b93f0ff0d0f12de32"
-title: "Example Apps"
-content: '''
-  # Example Apps 
-  
-  1. https://github.com/mhartington/star-track-ionic
-'''
+title: ""
+content: ""
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 createdAt: "2017-11-09T21:39:15.581Z"
-updatedAt: "2017-11-09T21:39:33.240Z"
+updatedAt: "2017-11-10T21:11:51.844Z"

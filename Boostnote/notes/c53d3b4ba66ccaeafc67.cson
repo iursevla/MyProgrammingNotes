@@ -1,0 +1,15 @@
+type: "MARKDOWN_NOTE"
+folder: "d071c53309af24e99225"
+title: "PHP"
+content: '''
+  # PHP 
+  
+  1. [Derek Banas 30Min PHP](https://www.youtube.com/watch?v=7TF00hJI78Y)
+  2. [PHP 7 Coockbook](http://www.allitebooks.in/php-7-programming-cookbook/)
+  3. [Awesome PHP](https://github.com/ziadoz/awesome-php)
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2018-03-14T22:40:22.936Z"
+updatedAt: "2018-03-16T16:30:56.743Z"

@@ -1,0 +1,131 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Ionic important things"
+content: '''
+  # Ionic important things
+  
+  ### 1. Go back to root page
+  `this.navCtrl.popToRoot(); // Go back to root`
+  
+  ### 2. Disable Content Scroll [Source](https://github.com/ionic-team/ionic/issues/7644)
+  ```html
+  <ion-content no-bounce></ion-content>
+  ```
+  
+  ### 3. Alert Controller [Source](https://ionicframework.com/docs/nightly/api/components/alert/AlertController/)
+  [Usage](https://ionicframework.com/docs/nightly/api/components/alert/AlertController/#usage)
+  ```ts
+  import { AlertController } from 'ionic-angular';
+  
+  constructor(private alertCtrl: AlertController) {
+  }
+  
+  showAlert(){
+      const alert = this.alertController.create({ message: 'GPS not available', title: 'GPS', buttons: ['Ok'] });
+      alert.present();
+  }
+  ```
+  
+  ### 4. Images
+  Place all image at /src/assets/imgs, then when we do ionic-serve or ionic cordova build ... it will copy all images to /www/assets/imgs
+  
+  ### 5. Error failed to crunch file
+  Go to platforms/android/build.gradle and add to allprojects: `buildDir = "C:/tmp/${rootProject.name}/${project.name}"`
+  
+  ### 6. Lazy Loading
+  [Source](https://www.youtube.com/watch?v=h4qrhJFeudA) + [GitHub](https://github.com/mhartington/lazyLoad2-components)
+  This way we can only load the things we want at a time, otherwise would load all js code at the beginning. Now only loads a page code at a time.
+  When using lazy loading we must load the ion-... elements into our .module.ts, like so:
+  ```js
+  import { NgModule } from '@angular/core';
+  import { StationSelectorComponent } from './station-selector/station-selector';
+  import { IonicModule } from 'ionic-angular/module'; //HERE
+  @NgModule({
+  	declarations: [StationSelectorComponent],
+  	imports: [IonicModule], //HERE
+  	exports: [StationSelectorComponent]
+  })
+  export class ComponentsModule {}
+  ```
+  
+  ### 7. Update ion-select data
+  https://devdactic.com/ionic-sqlite-queries-database/
+  
+  ### 8. Loading Controller 
+  [Source](https://ionicframework.com/docs/api/components/loading/LoadingController/)
+  A loading is an overlay that indicates activity while blocking user interaction.
+  Usage:
+  ```ts
+  import { LoadingController } from 'ionic-angular/components/loading/loading-controller';
+  import { Loading } from 'ionic-angular/components/loading/loading';
+  
+  private loader: Loading;
+  constructor(public loadingCtrl: LoadingController) {
+      this.loader = this.loadingCtrl.create({content: 'Text for the loader'});
+      setTitmeout(()=>{
+          this.loader.dismiss();
+      }, 2000);
+  }
+  ```
+  
+  ### 9. Access Component methods with @ViewChild()...
+  [Source](http://learnangular2.com/viewChild/)
+  Usage:
+  ```ts
+  @Component({
+    selector: 'user-profile'
+  })
+  
+  export class UserProfile {
+    constructor() {}
+    sendData() {
+      //send data
+    }
+  }
+  ```
+  ```ts
+  import { Component, ViewChild } from '@angular/core';
+  import { UserProfile } from '../user-profile';
+  
+  @Component({
+    template: '<user-profile (click)="update()"></user-profile>',
+  })
+  export class MasterPage {
+    // ViewChild takes a class type or a reference name string.
+    // Here we are using the type
+    @ViewChild(UserProfile) userProfile: UserProfile
+    
+    constructor() { }
+    
+    update() {
+      this.userProfile.sendData();
+    }
+  }
+  ```
+  
+  To acess multiple components in this case if there's multiple, like this:
+  ```html
+  <user-profile></user-profile>
+  <user-profile></user-profile>
+  ```
+  then instead of @ViewChild use @ViewChildren and change to:
+  ```ts
+  ...
+    @ViewChildren(UserProfile) userProfile: QueryList<UserProfile>
+  ```
+  [Source Blog](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
+  
+  ### 10. Ionic check for errors
+  To look for possible problems in Ionic just run `ionic doctor check`
+  
+  
+  
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-10T21:13:11.894Z"
+updatedAt: "2017-11-13T17:48:16.431Z"

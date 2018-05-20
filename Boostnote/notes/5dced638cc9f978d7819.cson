@@ -23,7 +23,7 @@ content: '''
   ]
   ```
   
-  ### Usage [See](https://ionicframework.com/docs/native/geolocation/)
+  ### Usage [See](https://ionicframework.com/docs/native/geolocation/#usage)
   ```js
   import { Geolocation } from '@ionic-native/geolocation';
   
@@ -46,4 +46,4 @@ tags: [
 isStarred: false
 isTrashed: false
 createdAt: "2017-11-09T21:39:39.618Z"
-updatedAt: "2017-11-10T18:41:00.610Z"
+updatedAt: "2017-11-10T20:31:57.813Z"

@@ -69,6 +69,36 @@
       "key": "4ec9065bf6fdd029157a",
       "color": "#3FD941",
       "name": "Ionic 4"
+    },
+    {
+      "key": "9d1ecc2e9c37e519548d",
+      "color": "#B013A4",
+      "name": "TypeScript"
+    },
+    {
+      "key": "512d3ae63a23e1fa2bef",
+      "color": "#E10051",
+      "name": "Docker"
+    },
+    {
+      "key": "d071c53309af24e99225",
+      "color": "#3FD941",
+      "name": "PHP"
+    },
+    {
+      "key": "8955a1226d52f977cd3c",
+      "color": "#3FD941",
+      "name": "C#"
+    },
+    {
+      "key": "1e87a18a1a9999296fe3",
+      "color": "#B013A4",
+      "name": "Site Pai Miguel"
+    },
+    {
+      "key": "dcf28615c7b676adf70b",
+      "color": "#2BA5F7",
+      "name": "AngularJS"
     }
   ],
   "version": "1.0"

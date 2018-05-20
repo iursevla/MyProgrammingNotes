@@ -1,0 +1,41 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Observables"
+content: '''
+  # Observables
+  
+  + [Crash Course 1hour](https://www.youtube.com/watch?v=ei7FsoXKPl0)
+  + [Complete Tutorial](https://www.learnrxjs.io/)
+  
+  [Video YT](https://www.youtube.com/watch?v=Sol2uLolmUM) + [YT 2](https://www.youtube.com/watch?v=Tux1nhBPl_w) + [Intro to Observables in Ionic 2](https://www.youtube.com/watch?v=RLZ-zJOzjyA)
+  
+  ### Subjects [Source](http://reactivex.io/documentation/subject.html)
+  
+  1. **AsyncSubject**
+  2.  **BehaviorSubject** - Emit only the last value when somebody subscribes.
+  + It needs an initial value as it must always return a value on subscription even if it hasn't received a `next()`
+  + Upon subscription it returns the last value of the subject. A regular observable only triggers when it receives an onnext
+  + At any point you can retrieve the last value of the subject in a non-observable code using the `getValue()` method.
+  Used in MTS App DatabaseProvider to wait for the platform ready and SQLite DB ready events. Basically wait for the first() true value.
+  ```ts
+      private databaseReady: BehaviorSubject<boolean>; 
+      
+      constructor(...){
+          this.databaseReady = new BehaviorSubject(false); //Set to false
+          this.platformReady(); // Platform ready and create/open DB
+      }
+      
+      async platformReady() {
+          await this.platform.ready();
+          await this._createDatabase();
+          this.databaseReady.next(true);
+      }
+  ```
+  3. **PublishSubject**
+  4. **ReplaySubject**
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-12T20:54:23.139Z"
+updatedAt: "2017-11-15T17:36:17.775Z"

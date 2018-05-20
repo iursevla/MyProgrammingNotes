@@ -1,8 +1,10 @@
 type: "MARKDOWN_NOTE"
 folder: "c10b93f0ff0d0f12de32"
-title: "Pre Populated Database"
+title: "SQLite Pre Populated Database"
 content: '''
-  # Pre Populated Database
+  # SQLite Pre Populated Database
+  
+  [YT Simon Ionic](https://www.youtube.com/watch?v=E6h8PFHMLIU) + [Devdactic](https://devdactic.com/ionic-sqlite-queries-database/) + 
   
   To create a pre populated database, first add ionic-native sqlite.
   
@@ -15,9 +17,22 @@ content: '''
   ionic cordova plugin add cordova-sqlite-ext
   ```
   
+  Usage: [Source](https://ionicframework.com/docs/native/sqlite/#usage)
+  
+  ```ts
+  import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
+  
+  constructor(private sqlite: SQLite) { }
+  
+  async getStations(){
+      return this.sqlite.execute();
+  }
+  ```
+  
+  
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-10-29T12:56:55.864Z"
-updatedAt: "2017-10-29T13:53:48.503Z"
+updatedAt: "2017-11-13T20:09:03.121Z"

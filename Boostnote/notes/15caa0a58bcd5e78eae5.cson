@@ -19,9 +19,17 @@ content: '''
   c.set(a);
   c.set(b, a.length);
   ```
+  
+  ### 16. Guide To JS Medium Post [Source](https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e)
+  
+  ### 17. Listen to [DOM Changes](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
+  ```js
+   let mutationObserver = new MutationObserver((mutationsList) => {console.log(mutationsList); });
+  mutationObserver.observe( this.parentDiv, { subtree: true });
+  ```
 '''
 tags: []
 isStarred: false
 isTrashed: false
 createdAt: "2017-11-05T14:00:18.727Z"
-updatedAt: "2017-11-06T15:00:28.584Z"
+updatedAt: "2018-02-09T11:36:53.718Z"

@@ -1,0 +1,47 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Location Accuracy Plugin"
+content: '''
+  # Location Accuracy Plugin
+  -  This Cordova/Phonegap plugin for Android and iOS to request enabling/changing of Location Services by triggering a native dialog from within the app, avoiding the need for the user to leave your app to change location settings manually.
+  
+  #### Links: [See](https://ionicframework.com/docs/native/location-accuracy/)
+  
+  ### Install
+  ```bash
+  ionic cordova plugin add cordova-plugin-request-location-accuracy
+  npm install --save @ionic-native/location-accuracy
+  ``` 
+  
+  ### Add to app.module.ts
+  
+  ... See Other
+  
+  ### Usage  [See](https://ionicframework.com/docs/native/location-accuracy/#usage)
+  
+  ```js
+  import { LocationAccuracy } from '@ionic-native/location-accuracy';
+  
+      constructor(private locationAccuracy: LocationAccuracy) { }
+  ...
+      /**
+  	 * Check if the user has GPS enabled.
+  	 * If disabled then request access. If access is not granted then go back to the root page.
+  	 */
+  	async GPSIsAvailable() {
+  		if (await this.locationAccuracy.canRequest()) {
+  			try {
+  				return await this.locationAccuracy.request(this.locationAccuracy.REQUEST_PRIORITY_HIGH_ACCURACY);
+  			} catch (err) {
+  				console.log(err, "The user did not allow the use of GPS");
+  			}
+  		}
+  		return false;
+  	}
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-12T15:56:56.883Z"
+updatedAt: "2017-11-13T14:38:24.881Z"

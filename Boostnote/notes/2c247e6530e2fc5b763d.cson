@@ -16,7 +16,7 @@ content: '''
   
   ... See Geolocation
   
-  ### Usage  [See](https://ionicframework.com/docs/native/android-permissions/)
+  ### Usage  [See](https://ionicframework.com/docs/native/android-permissions/#usage)
   
   ```js
   import { AndroidPermissions } from '@ionic-native/android-permissions';
@@ -40,4 +40,4 @@ tags: [
 isStarred: false
 isTrashed: false
 createdAt: "2017-11-09T22:51:58.449Z"
-updatedAt: "2017-11-10T18:40:41.058Z"
+updatedAt: "2017-11-10T20:32:05.512Z"

@@ -1,0 +1,41 @@
+type: "MARKDOWN_NOTE"
+folder: "c10b93f0ff0d0f12de32"
+title: "Native Storage Plugin"
+content: '''
+  # Native Storage Plugin
+  
+  #### Links: [Ionic](https://ionicframework.com/docs/native/native-storage/) + [GitHub](https://github.com/TheCocoaProject/cordova-plugin-nativestorage)
+  
+  ### Install
+  ```bash
+  ionic cordova plugin add cordova-plugin-nativestorage
+  npm install --save @ionic-native/native-storage
+  ``` 
+  
+  ### Add to app.module.ts
+  
+  ... See 
+  
+  ### Usage  [See](https://ionicframework.com/docs/native/native-storage/#usage)
+  
+  ```js
+  import { NativeStorage } from '@ionic-native/native-storage';
+  
+      constructor(private nativeStorage: NativeStorage) { }
+  
+      async getNativeStorageItem(name) {
+          try {
+              return await this.nativeStorage.getItem(name);
+          } catch (err) {
+              console.error(err);
+          }
+      }
+  ```
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-13T20:49:35.166Z"
+updatedAt: "2017-11-13T21:42:50.544Z"

@@ -1,0 +1,14 @@
+type: "MARKDOWN_NOTE"
+folder: "4ec9065bf6fdd029157a"
+title: "MTS App TODOs"
+content: '''
+  # MTS App TODOs
+  
+  * [ ] Create with --prod to see the result
+  * [ ] transition in card when we click to show or hide the schedules 
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-22T12:26:59.316Z"
+updatedAt: "2017-11-22T12:27:46.296Z"

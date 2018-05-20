@@ -1,0 +1,17 @@
+type: "MARKDOWN_NOTE"
+folder: "9d1ecc2e9c37e519548d"
+title: "Documentation"
+content: '''
+  # Documentation
+  
+  TypeDoc
+  
+  1. https://blog.cloudflare.com/generating-documentation-for-typescript-projects/
+  2. https://medium.com/falafel-software/generating-documentation-for-angular-2-apps-and-nativescript-b8d2fa0bc9ae
+  3. http://typedoc.org
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-11-10T21:39:45.593Z"
+updatedAt: "2017-11-10T21:40:16.414Z"
